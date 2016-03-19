@@ -19,6 +19,9 @@ DEVICE_FOLDER := device/samsung/tuna
 # CMHW
 BOARD_HARDWARE_CLASS := $(DEVICE_FOLDER)/cmhw
 
+#Charging LED
+TARGET_USE_CHARGING_LED := true
+
 # inherit from omap4
 -include hardware/ti/omap4/BoardConfigCommon.mk
 
