@@ -262,4 +262,6 @@
         <item>com.android.location.fused</item>
     </string-array>
 
+    <!-- enable doze powersaving mode -->
+    <bool name="config_enableAutoPowerModes">true</bool>
 </resources>
