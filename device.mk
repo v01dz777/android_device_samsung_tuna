@@ -21,6 +21,8 @@
 
 DEVICE_FOLDER := device/samsung/tuna
 
+TARGET_TUNA_AUDIO_HDMI ?= true
+
 # Processor
 TARGET_BOARD_OMAP_CPU := 4460
 
