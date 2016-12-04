@@ -107,6 +107,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/tuna/gps.conf:system/etc/gps.conf
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    TunaDoze
+
 # Media profiles
 PRODUCT_COPY_FILES += \
 	frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
