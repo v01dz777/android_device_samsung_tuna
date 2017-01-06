@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/tuna/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME         := du_tuna
