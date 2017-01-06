@@ -101,7 +101,8 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_FOLDER)/rootdir/fstab.tuna:root/fstab.tuna
 
 # GPS
-$(call inherit-product, device/common/gps/gps_us_supl.mk)
+PRODUCT_COPY_FILES += \
+    device/samsung/tuna/gps.conf:system/etc/gps.conf
 
 # Media profiles
 PRODUCT_COPY_FILES += \
