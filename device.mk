@@ -28,6 +28,9 @@ $(call inherit-product-if-exists, hardware/ti/omap4/omap4.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
+# Use specific resolution for bootanimation
+SMALL_BOOTANIMATION_SIZE := 1280x720
+
 # We have 3 different variants of this device:
 # - maguro (GSM)
 # - toro (CDMA/LTE, VZW)
