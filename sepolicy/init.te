@@ -10,5 +10,5 @@ allow init tmpfs:lnk_file create;
 # For 'cpuset' module requests
 allow init kernel:system module_request;
 
-# DebugFS
+# debugfs
 allow init debugfs:file rw_file_perms;
